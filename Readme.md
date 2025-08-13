@@ -30,14 +30,3 @@ To start the application, run the following command:
 streamlit run app.py
 ```
 
-## Functions
-
-descriptions. It offers two functionalities:
-
-Tell Me About the Resume: Evaluates the resume and provides a professional evaluation against the job description.
-Percentage Match: Calculates the percentage match of the resume with the job descriptioget_gemini_response(input, pdf_content, prompt): This function sends the input, the first page of the PDF content, and the prompt to the generative AI model and returns the generated text response.
-input_pdf_setup(uploaded_file): This function converts the uploaded PDF file into an image of the first page, encodes it to base64, and prepares it for the AI model.
-Streamlit App
-The Streamlit app (app.py) provides a user interface for uploading resumes (PDF format) and entering job n and lists missing keywords and final thoughts.
-
-## Happy Experimenting😊
